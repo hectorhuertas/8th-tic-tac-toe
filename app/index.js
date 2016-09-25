@@ -1,5 +1,5 @@
 var React = require('react')
 var ReactDOM = require('react-dom')
-import Component from './components/Component.jsx'
+import Menu from './menu/Menu.jsx'
 
-ReactDOM.render(<Component />, document.getElementById('app'))
+ReactDOM.render(<Menu />, document.getElementById('app'))
