@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router'
+
 const GameButton = ({type, text, setGameType, hidden}) => (
   <div className='col-md-4'>
     <div className='row'>
@@ -35,14 +37,14 @@ export default React.createClass({
           <div className='col-md-4 offset-md-2'>
             <div className='row'>
               <div className='col-xs-6 offset-xs-3 col-md-12'>
-                <button type="button" className="btn-block btn btn-success">Human Starts</button>
+                <Link to='/game' className="btn-block btn btn-success">Human Starts</Link>
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='row'>
               <div className='col-xs-6 offset-xs-3 col-md-12'>
-                <button type="button" className="btn-block btn btn-success">Computer Starts</button>
+                <Link to='/game' className="btn-block btn btn-success">Computer Starts</Link>
               </div>
             </div>
           </div>
